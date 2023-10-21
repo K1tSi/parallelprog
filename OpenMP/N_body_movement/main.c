@@ -136,7 +136,7 @@ int main() {
     // Инициализация параметров тел
     if(tmp == 11){
     numBodies = 3;
-    G = 6.67e-11;
+    //G = 6.67e-11;
     printResult = 1;
     dt = 0.01;
     bodies = (Body*)malloc(sizeof(Body)*numBodies);
