@@ -115,7 +115,7 @@ int main() {
     //printf("%d\n",omp_get_max_threads());
     //omp_set_num_threads(omp_get_max_threads());
     setlocale(LC_ALL, "Rus");
-    int numBodies = 800;  // Количество тел
+    int numBodies = 2000;  // Количество тел
     Body* bodies;
     double G = 6.67e-11; // гравитационная постоянная
     double totalTime = 3.5;
